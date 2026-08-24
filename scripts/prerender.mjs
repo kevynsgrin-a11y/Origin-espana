@@ -33,9 +33,12 @@ function pageHtml(route) {
 
 for (const route of routes) {
   const out = pageHtml(route);
-  const dir = route === '/' ? join(root, 'dist') : join(root, 'dist', route.slice(1));
-  mkdirSync(dir, { recursive: true });
-  writeFileSync(join(dir, 'index.html'), out);
+  // Flat files (e.g. dist/receta/foo.html) so Cloudflare Pages serves the
+  // extensionless canonical URL /receta/foo directly with HTTP 200 (no 308
+  // trailing-slash redirect, which dist/receta/foo/index.html would cause).
+  const file = route === '/' ? join(root, 'dist', 'index.html') : join(root, 'dist', `${route.slice(1)}.html`);
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, out);
 }
 
 // Real 404 page — Cloudflare Pages serves dist/404.html with a 404 status.
