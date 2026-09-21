@@ -1,0 +1,138 @@
+{
+  "alcachofas-guisadas-de-la-abuela": {
+    "title": "Grandma's Braised Artichokes",
+    "subtitle": "The humble stew that fills the kitchen with the smell of home",
+    "description": "Fresh artichokes braised slowly with garlic, smoked pimentón de la Vera and a little jamón until tender and silky. Grandma's recipe, exactly as it was made on any ordinary Thursday.",
+    "category": "Stews",
+    "note": "Grandma served them with the thickened broth, for mopping with bread. Leftovers are even better the next day.",
+    "steps": [
+      { "name": "Trim", "text": "Remove the tough outer leaves of the artichokes down to the pale heart. Peel and trim the stem, cut off the top. Quarter them and drop into lemon water so they don't darken." },
+      { "name": "Sauté", "text": "In a clay pot, heat the oil and sauté the sliced garlic over medium heat until barely golden. Add the jamón and give it a few turns." },
+      { "name": "Pimentón and flour", "text": "Pull the pot off the heat for a moment, add the pimentón and flour and stir fast — pimentón turns bitter if it burns." },
+      { "name": "Braise", "text": "Add the drained artichokes, the bay leaf and enough broth to nearly cover. Cover and cook gently for 35–40 minutes, until tender." },
+      { "name": "Rest", "text": "Turn off the heat and let it sit 10 minutes lid on. The broth thickens and the artichokes settle into their flavor." }
+    ]
+  },
+  "paella-valenciana": {
+    "title": "Paella Valenciana",
+    "subtitle": "Sunday's rice, with the rules made clear",
+    "description": "The real paella: chicken, rabbit, garrofón beans and flat green beans, bomba rice and saffron. No chorizo, no rushing, and the socarrat crust as the final reward.",
+    "category": "Rice dishes",
+    "note": "The classic ratio is three parts broth to one of rice, but bomba drinks a little more. Better to come up short on broth and get socarrat than to overcook it soft.",
+    "steps": [
+      { "name": "Brown the meat", "text": "Heat the oil in the paella pan and brown the salted chicken and rabbit over high heat, unhurried, until well crusted on all sides. This step decides the rice's flavor." },
+      { "name": "Vegetables", "text": "Add the green beans and garrofón and fry a few minutes. Push everything aside, put the grated tomato in the center and fry until it darkens." },
+      { "name": "Pimentón and broth", "text": "Add the pimentón, stir, and pour in the water. Add the saffron and boil 15 minutes so the meat finishes cooking and the broth takes flavor." },
+      { "name": "Rice", "text": "Spread the rice in a cross shape and level it — from here on, no stirring. Taste the broth and adjust salt." },
+      { "name": "Cook", "text": "8 minutes over high heat, 10 over low. In the last 2 minutes lay the rosemary sprig on top." },
+      { "name": "Socarrat", "text": "Crank the heat to maximum for the final 30–60 seconds, until you hear a soft crackle: that's the socarrat forming. Rest 5 minutes covered with a cloth." }
+    ]
+  },
+  "tortilla-de-patatas": {
+    "title": "Spanish Potato Tortilla",
+    "subtitle": "Thick, runny in the middle, golden outside",
+    "description": "The classic Spanish tortilla: potatoes confited slowly in olive oil, egg, and the confident flip. With onion, as this house rules.",
+    "category": "Tortillas",
+    "note": "Better eggs, better tortilla. And resting the mixture before cooking is the trick almost nobody mentions.",
+    "steps": [
+      { "name": "Cut", "text": "Slice the potatoes thin (or small dice, as your household prefers) and julienne the onion." },
+      { "name": "Confit", "text": "Put the potatoes and onion in a pan with the cold oil and salt. Cook over medium-low heat 20–25 minutes, without browning: they should soften like a confit." },
+      { "name": "Mix", "text": "Drain the potatoes and onion (save the oil for another day) and fold them into the beaten, salted eggs in a large bowl. Rest 10 minutes — the potato drinks the egg." },
+      { "name": "Set", "text": "Pour into a nonstick pan with two spoonfuls of the oil. Over medium-high heat, set the edges 2–3 minutes, pressing a flat plate on top to compact it." },
+      { "name": "The flip", "text": "Using the plate, turn it over with conviction and slide the tortilla back into the pan. Cook 2 more minutes: the center should stay runny." }
+    ]
+  },
+  "gazpacho-andaluz": {
+    "title": "Andalusian Gazpacho",
+    "subtitle": "Liquid summer, of ripe tomato and yesterday's bread",
+    "description": "Tomato, cucumber, pepper, bread, olive oil and vinegar: the authentic Andalusian gazpacho, blended smooth and served properly cold. Not a fashionable soup — a way to survive August.",
+    "category": "Cold soups",
+    "note": "Without truly ripe tomatoes there is no gazpacho worth the name. In winter, don't even try.",
+    "steps": [
+      { "name": "Soak", "text": "Soak the bread crumb in a little water while you prep the vegetables." },
+      { "name": "Blend", "text": "Put everything in the blender — chopped tomatoes, peeled cucumber, pepper, drained bread, garlic, salt and vinegar — and blend for longer than you think: at least 2–3 minutes, until not a strand remains." },
+      { "name": "Emulsify", "text": "With the blender running, add the olive oil in a thin stream at the end. That's what gives body and shine." },
+      { "name": "Strain and chill", "text": "Pass through a fine sieve, pressing with a spoon, and refrigerate at least 2 hours. Serve very cold with croutons and diced vegetables." }
+    ]
+  },
+  "fabada-asturiana": {
+    "title": "Asturian Fabada",
+    "subtitle": "The bean stew with compango, for days of serious eating",
+    "description": "Asturian fabes simmered slowly with compango — chorizo, morcilla blood sausage and lacón — until the beans are meltingly tender and the broth thickens on its own.",
+    "category": "Stews",
+    "note": "Fabada is never stirred with a spoon: the pot is shaken. And genuine Asturian fabes if you can find them — there is no honest substitute.",
+    "steps": [
+      { "name": "Soak", "text": "Soak the fabes overnight, 12 hours, in cold water." },
+      { "name": "Start", "text": "Put the drained fabes in a wide pot with the whole compango, onion, garlic, bay leaf and cold water to cover by two fingers. Bring to a boil." },
+      { "name": "Skim", "text": "Skim the foam off the surface and lower the heat to minimum." },
+      { "name": "Slow cook", "text": "Simmer 2 to 2½ hours on the lowest heat, shaking the pot back and forth now and then (never a spoon — the fabes break). Add cold water in small splashes if they run dry: the shock helps them turn tender." },
+      { "name": "Rest", "text": "Take out the compango, slice it and return it. Let the fabada rest at least 30 minutes before serving. Next day, spectacular." }
+    ]
+  },
+  "salmorejo-cordobes": {
+    "title": "Cordoban Salmorejo",
+    "subtitle": "Thick, emulsified, topped with jamón and egg",
+    "description": "Gazpacho's Cordoban cousin: more bread, much thicker, no cucumber or pepper, crowned with serrano ham and hard-boiled egg. A textbook tomato cream.",
+    "category": "Cold soups",
+    "note": "Real salmorejo holds a spoon upright. If it pours, it needs more bread or more blending.",
+    "steps": [
+      { "name": "Base", "text": "Blend the chopped tomatoes until fine. Add the bread in pieces and let it soak 10 minutes." },
+      { "name": "Blend", "text": "Blend bread and tomato with the salt and vinegar into a dense, homogeneous cream." },
+      { "name": "Oil", "text": "Add the olive oil in a thin stream with the blender running, until it emulsifies and the cream lightens a shade." },
+      { "name": "Serve", "text": "Cold, with chopped jamón and grated egg on top. In Córdoba it's drunk from a glass." }
+    ]
+  },
+  "pisto-manchego": {
+    "title": "Pisto Manchego",
+    "subtitle": "La Mancha's ratatouille, with a fried egg on top",
+    "description": "Tomato, pepper, zucchini and onion, diced and cooked slowly. The honest Manchego pisto, served with a fried egg or bread crumbs.",
+    "category": "Vegetables",
+    "note": "Pisto is slow pan work: each vegetable joins when its turn comes, not all at once.",
+    "steps": [
+      { "name": "Dice", "text": "Cut the onion, pepper and zucchini into small, even dice. The Manchego way, always — no giant chunks." },
+      { "name": "In order", "text": "Poach the onion in the oil 8 minutes, add the pepper for 10 more, then the zucchini for another 10." },
+      { "name": "Tomato", "text": "Add the grated tomato and a pinch of sugar. Cook over medium heat 25–30 minutes, uncovered, until the water evaporates and the pisto has body." },
+      { "name": "Serve", "text": "With a fried egg on top and bread. Also cold the next day, or as a base for baked eggs." }
+    ]
+  },
+  "caldo-gallego": {
+    "title": "Galician Broth (Caldo Gallego)",
+    "subtitle": "The bone-and-grelos broth that restores you",
+    "description": "The honest Galician caldo: lard, ham bone, white beans, turnip greens and potato. A winter dish eaten by the spoonful beside the hearth.",
+    "category": "Soups",
+    "note": "Breaking the potato instead of cutting it isn't a quirk: the rough surface releases starch and thickens the broth.",
+    "steps": [
+      { "name": "Cook the base", "text": "Put the soaked beans with the bone, lard and chorizo in plenty of cold water. Bring to a boil, then down to minimum." },
+      { "name": "Ninety minutes", "text": "Simmer 90 minutes on low, skimming at the start. Add cold water in small doses if needed — again, the shock softens the legume." },
+      { "name": "Potato and greens", "text": "Add the broken-up potatoes in big pieces and the chopped grelos. Cook 25 minutes more, until the potato releases and the broth thickens." },
+      { "name": "Serve", "text": "Remove the lard and bone, slice the chorizo back in and serve piping hot, with cornbread if you have it." }
+    ]
+  },
+  "escalivada-catalana": {
+    "title": "Catalan Escalivada",
+    "subtitle": "Vegetables roasted over direct heat, dressed with nothing else",
+    "description": "Peppers, eggplant, onion and tomato roasted over a flame or in the oven, peeled into strips and dressed only with olive oil and salt. Escalivada is the Catalan summer on a plate.",
+    "category": "Vegetables",
+    "note": "The tap is escalivada's enemy: rinsing the strips throws away half the roast.",
+    "steps": [
+      { "name": "Roast", "text": "Roast the whole vegetables in a 220 °C oven (or over an open flame, the old way): peppers and eggplant 35–40 minutes, onions and tomatoes for the last 20." },
+      { "name": "Sweat", "text": "Move them to a bowl and cover, or wrap in paper, 15 minutes: the steam loosens the skins." },
+      { "name": "Peel and strip", "text": "Peel with your hands — never under the tap, it washes away the flavor — and cut lengthwise into strips, over a plate to catch the juices." },
+      { "name": "Dress", "text": "Arrange the strips on a platter, salt and dress with their own juices and olive oil. Rest at least half an hour. Serve warm or cold, with anchovies or without." }
+    ]
+  },
+  "crema-catalana": {
+    "title": "Crema Catalana",
+    "subtitle": "The burnt custard done with the iron, since Sant Josep",
+    "description": "Milk cream with cinnamon and lemon, thickened with cornstarch and covered with sugar burnt to order with the iron or a blowtorch. The fiesta mayor dessert.",
+    "category": "Desserts",
+    "note": "Cornstarch and yolks, not flour or gelatin: crema catalana cuts clean, it doesn't bounce.",
+    "steps": [
+      { "name": "Infuse", "text": "Heat the milk with the cinnamon stick and lemon peel to a boil. Turn off, cover and steep 10 minutes." },
+      { "name": "Thicken", "text": "Whisk the yolks with the sugar and cornstarch until pale. Strain the milk into the mixture, slowly, stirring." },
+      { "name": "Cook", "text": "Return everything to medium heat and stir constantly with a spatula or whisk until it thickens — 5–7 minutes from the first steam. Do not boil." },
+      { "name": "Portion", "text": "Pour into small clay dishes and smooth the surface. Chill at least 3 hours." },
+      { "name": "Burn", "text": "Cover each cream with a thin layer of sugar and burn with a hot iron or blowtorch to an amber crust. Serve at once — the contrast is the dish." }
+    ]
+  }
+}

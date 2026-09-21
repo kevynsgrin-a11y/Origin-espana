@@ -1,0 +1,40 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build
+        run: node build.mjs
+      - name: Verify output contract
+        run: |
+          node --input-type=module -e "
+          import { readFileSync, existsSync } from 'node:fs';
+          const es = JSON.parse(readFileSync('recipes.json', 'utf8'));
+          const en = JSON.parse(readFileSync('recipes.en.json', 'utf8'));
+          for (const r of es) {
+            if (!en[r.slug]) throw new Error('missing EN overlay for ' + r.slug);
+            for (const [f, expectName] of [['dist/recipes/' + r.slug + '/index.html', en[r.slug].title], ['dist/es/receta/' + r.slug + '/index.html', r.title]]) {
+              if (!existsSync(f)) throw new Error('missing ' + f);
+              const h = readFileSync(f, 'utf8');
+              const ld = JSON.parse(h.match(/<script type=\"application\\/ld\\+json\">(\\{.*?\\})<\\/script>/)[1]);
+              if (ld['@type'] !== 'Recipe' || ld.recipeIngredient.length !== r.ingredients.length || ld.recipeInstructions.length !== (f.includes('/es/') ? r.steps.length : en[r.slug].steps.length))
+                throw new Error('schema mismatch for ' + f);
+              if (!h.includes('max-image-preview:large')) throw new Error('robots meta missing in ' + f);
+              if (!h.includes('hreflang')) throw new Error('hreflang missing in ' + f);
+            }
+          }
+          const sm = readFileSync('dist/sitemap.xml', 'utf8');
+          if ((sm.match(/<loc>/g) || []).length !== es.length * 2 + 6) throw new Error('sitemap count mismatch');
+          const home = readFileSync('dist/index.html', 'utf8');
+          if (!home.includes('lang=\"en\"') || !home.includes('Español')) throw new Error('EN-default + ES toggle contract violated');
+          console.log('PASS: ' + es.length + ' recipes x en/es, schema + hreflang + sitemap verified');
+          "
+          git diff --exit-code -- dist/ || (echo "dist must be committed alongside sources" && exit 1)
