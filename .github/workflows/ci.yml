@@ -1,0 +1,34 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build
+        run: node build.mjs
+      - name: Verify output contract
+        run: |
+          node --input-type=module -e "
+          import { readFileSync, existsSync } from 'node:fs';
+          const recipes = JSON.parse(readFileSync('recipes.json', 'utf8'));
+          for (const r of recipes) {
+            const f = 'dist/receta/' + r.slug + '/index.html';
+            if (!existsSync(f)) throw new Error('missing ' + f);
+            const h = readFileSync(f, 'utf8');
+            const ld = JSON.parse(h.match(/<script type=\"application\\/ld\\+json\">(\\{.*?\\})<\\/script>/)[1]);
+            if (ld['@type'] !== 'Recipe' || ld.recipeIngredient.length !== r.ingredients.length || ld.recipeInstructions.length !== r.steps.length)
+              throw new Error('schema mismatch for ' + r.slug);
+            if (!h.includes('max-image-preview:large')) throw new Error('robots meta missing for ' + r.slug);
+          }
+          const sitemap = readFileSync('dist/sitemap.xml', 'utf8');
+          if ((sitemap.match(/<loc>/g) || []).length !== recipes.length + 3) throw new Error('sitemap count mismatch');
+          console.log('PASS: ' + recipes.length + ' recipes, schema + sitemap contract verified');
+          "
+          git diff --exit-code -- dist/ || (echo "dist must be committed alongside sources" && exit 1)

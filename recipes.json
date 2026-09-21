@@ -1,0 +1,295 @@
+[
+  {
+    "slug": "alcachofas-guisadas-de-la-abuela",
+    "title": "Alcachofas Guisadas de la Abuela",
+    "subtitle": "El guiso humilde que llena la cocina de olor a hogar",
+    "description": "Alcachofas frescas guisadas lentamente con ajo, pimentón de la Vera y un poco de jamón, hasta que quedan tiernas y melosas. La receta de la abuela, tal cual se hacía un jueves cualquiera.",
+    "region": "La Mancha",
+    "category": "Guisos",
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "servings": 4,
+    "tags": ["alcachofas guisadas", "receta de la abuela", "alcachofas de la vera", "guiso tradicional"],
+    "ingredients": [
+      { "qty": "8", "item": "alcachofas frescas" },
+      { "qty": "1", "item": "limón (para el agua de las alcachofas)" },
+      { "qty": "4 cucharadas", "item": "aceite de oliva virgen extra" },
+      { "qty": "4 dientes", "item": "ajo, laminados" },
+      { "qty": "80 g", "item": "jamón serrano en taquitos" },
+      { "qty": "1 cucharadita", "item": "pimentón de la Vera dulce" },
+      { "qty": "1 cucharada", "item": "harina" },
+      { "qty": "200 ml", "item": "caldo de pollo (o agua)" },
+      { "qty": "1 hoja", "item": "laurel" },
+      { "qty": "al gusto", "item": "sal" }
+    ],
+    "steps": [
+      { "name": "Limpiar", "text": "Quita las hojas exteriores duras de las alcachofas hasta llegar al corazón claro. Corta el tallo pelado y la punta superior. Córtalas en cuartos y súmelas en agua con limón para que no se oscurezcan." },
+      { "name": "Sofreír", "text": "En una cazuela de barro, calienta el aceite y sofríe el ajo laminado a fuego medio hasta que apenas dore. Añade el jamón y dale unas vueltas." },
+      { "name": "Pimentón y harina", "text": "Aparta la cazuela del fuego un momento, añade el pimentón y la harina y remueve rápido — el pimentón se amarga si se quema." },
+      { "name": "Guisar", "text": "Incorpora las alcachofas escurridas, la hoja de laurel y el caldo hasta casi cubrirlas. Tapar y cocer a fuego suave 35-40 minutos, hasta que estén tiernas." },
+      { "name": "Reposar", "text": "Apaga el fuego y deja reposar 10 minutos con la tapa puesta. El caldo espesa y las alcachofas asientan su sabor." }
+    ],
+    "note": "La abuela las servía con el caldo espeso, mojando pan. Si te sobran, al día siguiente están aún mejores."
+  },
+  {
+    "slug": "paella-valenciana",
+    "title": "Paella Valenciana",
+    "subtitle": "El arroz de los domingos, con las reglas claras",
+    "description": "La paella de verdad: pollo, conejo, garrofón y judía verde, con arroz bomba y azafrán. Sin chorizo, sin prisa, y con el socarrat como premio final.",
+    "region": "Valencia",
+    "category": "Arroces",
+    "prepMinutes": 25,
+    "cookMinutes": 35,
+    "servings": 6,
+    "tags": ["paella valenciana", "arroz", "receta tradicional valenciana"],
+    "ingredients": [
+      { "qty": "400 g", "item": "arroz bomba" },
+      { "qty": "600 g", "item": "pollo troceado" },
+      { "qty": "400 g", "item": "conejo troceado" },
+      { "qty": "150 g", "item": "garrofón (judía blanca plana)" },
+      { "qty": "200 g", "item": "judía verde plana (ferraura)" },
+      { "qty": "1", "item": "tomate maduro rallado" },
+      { "qty": "100 ml", "item": "aceite de oliva virgen extra" },
+      { "qty": "1 cucharadita", "item": "pimentón dulce" },
+      { "qty": "hebras", "item": "azafrán tostado" },
+      { "qty": "1,2 litros", "item": "agua (aprox., triple del arroz menos un poco)" },
+      { "qty": "1 ramita", "item": "romero fresco" },
+      { "qty": "al gusto", "item": "sal" }
+    ],
+    "steps": [
+      { "name": "Sofrito de carne", "text": "Calienta el aceite en la paella y dora el pollo y el conejo salados a fuego fuerte, sin prisa, hasta que estén bien tostados por todos lados. Este paso decide el sabor del arroz." },
+      { "name": "Verduras", "text": "Añade la judía verde y el garrofón y sofríe unos minutos. Haz un hueco en el centro, pon el tomate rallado y sofríe hasta que oscurezca." },
+      { "name": "Pimentón y agua", "text": "Añade el pimentón, remueve, y vierte el agua. Añade el azafrán y deja hervir 15 minutos para que la carne termine de cocerse y el caldo tome sabor." },
+      { "name": "Arroz", "text": "Reparte el arroz en cruz y nivélalo — a partir de aquí no se remueve más. Prueba el caldo y rectifica de sal." },
+      { "name": "Cocción", "text": "8 minutos a fuego fuerte, 10 minutos a fuego suave. En los últimos 2 minutos pon la ramita de romero encima." },
+      { "name": "Socarrat", "text": "Sube el fuego al máximo los últimos 30-60 segundos, hasta oír un crepitar suave: es el socarrat formándose. Retira y deja reposar 5 minutos tapada con un paño." }
+    ],
+    "note": "La proporción clásica es tres partes de caldo por una de arroz, pero el bomba bebe un poco más. Mejor quedarse corto de caldo y lograr socarrat que pasarse de blandura."
+  },
+  {
+    "slug": "tortilla-de-patatas",
+    "title": "Tortilla de Patatas",
+    "subtitle": "Espesa, jugosa por dentro, dorada por fuera",
+    "description": "La tortilla española de toda la vida: patatas confitadas lentamente en aceite de oliva, huevo, y la vuelta maestra. Con cebolla, como manda la casa.",
+    "region": "Castilla",
+    "category": "Tortillas",
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "servings": 4,
+    "tags": ["tortilla de patatas", "tortilla española", "receta con cebolla"],
+    "ingredients": [
+      { "qty": "5", "item": "huevos grandes" },
+      { "qty": "700 g", "item": "patatas para freír" },
+      { "qty": "1", "item": "cebolla mediana" },
+      { "qty": "250 ml", "item": "aceite de oliva (suave o virgen)" },
+      { "qty": "al gusto", "item": "sal gorda" }
+    ],
+    "steps": [
+      { "name": "Cortar", "text": "Corta las patatas en láminas finas (o dados pequeños, al gusto de casa) y la cebolla en juliana." },
+      { "name": "Confitar", "text": "Pon las patatas y la cebolla en una sartén con el aceite frío y sal. Cuece a fuego medio-bajo 20-25 minutos, sin que lleguen a dorarse: deben ablandarse como un confitado." },
+      { "name": "Mezclar", "text": "Escurre las patatas y la cebolla (guarda el aceite, sirve para otra vez) y mézclalas con los huevos batidos con sal en un bol grande. Deja reposar 10 minutos — la patata absorbe el huevo." },
+      { "name": "Cuajar", "text": "Vierte en una sartén antiadherente con dos cucharadas del aceite. A fuego medio-alto, cuaja los bordes 2-3 minutos bajando un plato llano encima para compactar." },
+      { "name": "La vuelta", "text": "Con el plato, dale la vuelta con decisión y desliza la tortilla de nuevo en la sartén. Cuaja 2 minutos más: el centro debe quedar jugoso." }
+    ],
+    "note": "Huevos mejores, tortilla mejor. Y el reposo de la mezcla antes de cuajar es el truco que casi nadie cuenta."
+  },
+  {
+    "slug": "gazpacho-andaluz",
+    "title": "Gazpacho Andaluz",
+    "subtitle": "Verano líquido, de tomate maduro y pan de ayer",
+    "description": "Tomate, pepino, pimiento, pan, aceite y vinagre: el gazpacho andaluz auténtico, batido fino y servido bien frío. No es una sopa de moda, es una forma de sobrevivir al agosto.",
+    "region": "Andalucía",
+    "category": "Sopas frías",
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "servings": 4,
+    "tags": ["gazpacho andaluz", "sopa fría", "receta de verano"],
+    "ingredients": [
+      { "qty": "1 kg", "item": "tomates muy maduros" },
+      { "qty": "1", "item": "pepino mediano" },
+      { "qty": "1", "item": "pimiento verde italiano" },
+      { "qty": "100 g", "item": "pan del día anterior, miga" },
+      { "qty": "100 ml", "item": "aceite de oliva virgen extra" },
+      { "qty": "2 cucharadas", "item": "vinagre de vino" },
+      { "qty": "1 diente", "item": "ajo (opcional)" },
+      { "qty": "al gusto", "item": "sal" }
+    ],
+    "steps": [
+      { "name": "Remojar", "text": "Remoja la miga de pan en un poco de agua mientras preparas la verdura." },
+      { "name": "Triturar", "text": "Pon todo en la batidora — tomates troceados, pepino pelado, pimiento, pan escurrido, ajo, sal y vinagre — y bate un buen rato, más del que crees: al menos 2-3 minutos, hasta que no quede ni hebra." },
+      { "name": "Emulsionar", "text": "Con la batidora en marcha, añade el aceite en hilo fino al final. Es lo que da cuerpo y brillo." },
+      { "name": "Colar y frío", "text": "Pasa por un colador fino apretando con un cuchara y refrigera mínimo 2 horas. Servir muy frío con picatostes y trocitos de la misma verdura." }
+    ],
+    "note": "Sin tomate maduro de verdad no hay gazpacho que valga. En invierno, mejor ni intentarlo."
+  },
+  {
+    "slug": "fabada-asturiana",
+    "title": "Fabada Asturiana",
+    "subtitle": "La fabada de compango, para días de comer serio",
+    "description": "Fabes asturianas cocidas lentamente con compango — chorizo, morcilla y lacón — hasta que la faba se deshace de tierna y el caldo liga solo.",
+    "region": "Asturias",
+    "category": "Guisos",
+    "prepMinutes": 20,
+    "cookMinutes": 150,
+    "servings": 6,
+    "tags": ["fabada asturiana", "fabes", "cocido", "guiso de invierno"],
+    "ingredients": [
+      { "qty": "500 g", "item": "fabes asturianas (o alubia blanca grande)" },
+      { "qty": "2", "item": "chorizos asturianos" },
+      { "qty": "2", "item": "morcillas asturianas" },
+      { "qty": "300 g", "item": "lacón (o panceta salada)" },
+      { "qty": "1", "item": "cebolla pequeña" },
+      { "qty": "2 dientes", "item": "ajo" },
+      { "qty": "1 hoja", "item": "laurel" },
+      { "qty": "un chorrito", "item": "aceite de oliva" },
+      { "qty": "al gusto", "item": "sal (con cuidado: el compango ya sala)" }
+    ],
+    "steps": [
+      { "name": "Remojo", "text": "Deja las fabes en remojo la noche anterior, 12 horas, en agua fría." },
+      { "name": "Arranque", "text": "Pon las fabes escurridas en una cazuela amplia con el compango entero, la cebolla, el ajo, el laurel y agua fría que las cubra dos dedos. Lleva a ebullición." },
+      { "name": "Espumar", "text": "Retira la espuma de la superficie y baja el fuego al mínimo." },
+      { "name": "Cocción lenta", "text": "Cuece 2 a 2 horas y media a fuego mínimo, moviendo la cazuela de vez en cuando (movimiento en vaivén, nunca cuchara — las fabes se rompen). Añade agua fría en pequeños chorros si se quedan secas: el susto les ayuda a quedar tiernas." },
+      { "name": "Reposo", "text": "Retira el compango, córtalo en rodajas y devuélvelo. Deja reposar la fabada al menos 30 minutos antes de servir. De un día para otro, espectacular." }
+    ],
+    "note": "La fabada no se mueve con cuchara: se menea la olla. Y mejor faba asturiana si la encuentras — no hay sustituto honesto."
+  },
+  {
+    "slug": "salmorejo-cordobes",
+    "title": "Salmorejo Cordobés",
+    "subtitle": "Denso, emulsionado, con jamón y huevo encima",
+    "description": "El primo cordobés del gazpacho: más pan, más denso, sin pepino ni pimiento, coronado con jamón serrano y huevo duro. Una crema de tomate de libro.",
+    "region": "Córdoba",
+    "category": "Sopas frías",
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "servings": 4,
+    "tags": ["salmorejo cordobés", "crema de tomate", "receta de córdoba"],
+    "ingredients": [
+      { "qty": "800 g", "item": "tomates pera muy maduros" },
+      { "qty": "200 g", "item": "pan de telera o miga del día anterior" },
+      { "qty": "120 ml", "item": "aceite de oliva virgen extra" },
+      { "qty": "1 cucharada", "item": "vinagre de Montilla (o de vino)" },
+      { "qty": "al gusto", "item": "sal" },
+      { "qty": "para servir", "item": "jamón serrano picado y huevo duro rallado" }
+    ],
+    "steps": [
+      { "name": "Base", "text": "Tritura los tomates troceados hasta que queden finos. Añade el pan en trozos y deja que se empape 10 minutos." },
+      { "name": "Batir", "text": "Bate pan y tomate con la sal y el vinagre hasta obtener una crema densa y homogénea." },
+      { "name": "Aceite", "text": "Añade el aceite en hilo fino con la batidora en marcha hasta que emulsione y la crema aclare un tono." },
+      { "name": "Servir", "text": "Frío, con el jamón picado y el huevo rallado por encima. En Córdoba se toma en vaso." }
+    ],
+    "note": "El salmorejo de verdad sostiene una cuchara en pie. Si escurre, le falta pan o batido."
+  },
+  {
+    "slug": "pisto-manchego",
+    "title": "Pisto Manchego",
+    "subtitle": "La ratatouille de La Mancha, con huevo frito encima",
+    "description": "Tomate, pimiento, calabacín y cebolla, cortados en dados y hechos lentamente. El pisto manchego de rejuela, servido con un huevo frito o unas migas de pan.",
+    "region": "La Mancha",
+    "category": "Verduras",
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "servings": 4,
+    "tags": ["pisto manchego", "verdura", "receta manchega"],
+    "ingredients": [
+      { "qty": "4", "item": "tomates maduros rallados" },
+      { "qty": "2", "item": "pimientos verdes" },
+      { "qty": "1", "item": "calabacín mediano" },
+      { "qty": "1", "item": "cebolla grande" },
+      { "qty": "5 cucharadas", "item": "aceite de oliva virgen extra" },
+      { "qty": "1 cucharadita", "item": "azúcar (opcional, si el tomate es ácido)" },
+      { "qty": "al gusto", "item": "sal" },
+      { "qty": "para servir", "item": "huevos fritos" }
+    ],
+    "steps": [
+      { "name": "Dados", "text": "Corta la cebolla, el pimiento y el calabacín en dados pequeños, del mismo tamaño. La rejuela manchega se hace así, nada de verdura gigante." },
+      { "name": "Por orden", "text": "Pocha la cebolla en el aceite 8 minutos, añade el pimiento y cocina 10 minutos más, luego el calabacín otros 10." },
+      { "name": "Tomate", "text": "Incorpora el tomate rallado y una pizca de azúcar. Cuece a fuego medio 25-30 minutos, sin tapar, hasta que el agua se evapora y el pisto queda con cuerpo." },
+      { "name": "Servir", "text": "Con un huevo frito encima y pan. También frío al día siguiente, o como base para huevos al plato." }
+    ],
+    "note": "El pisto es un refrito sin prisa: cada verdura entra cuando le toca, no todas a la vez."
+  },
+  {
+    "slug": "caldo-gallego",
+    "title": "Caldo Gallego",
+    "subtitle": "El caldo de hueso, grelos y alubia que reconstituye",
+    "description": "El caldo gallego honesto: unto, huesos de jamón, alubias, grelos y patata. Un plato de invierno que se come a cucharadas junto a la lareira.",
+    "region": "Galicia",
+    "category": "Sopas",
+    "prepMinutes": 20,
+    "cookMinutes": 120,
+    "servings": 6,
+    "tags": ["caldo gallego", "grelos", "sopa tradicional"],
+    "ingredients": [
+      { "qty": "300 g", "item": "alubias blancas (remojo la víspera)" },
+      { "qty": "1", "item": "hueso de jamón o careta" },
+      { "qty": "150 g", "item": "unto de cerdo fresco" },
+      { "qty": "1 manojo", "item": "grelos (o nabizas)" },
+      { "qty": "3", "item": "patatas" },
+      { "qty": "1", "item": "chorizo para cocido (opcional)" },
+      { "qty": "al gusto", "item": "sal" }
+    ],
+    "steps": [
+      { "name": "Cocer la base", "text": "Pon las alubias remojadas con el hueso, el unto y el chorizo en agua fría abundante. Lleva a hervir y baja al mínimo." },
+      { "name": "Hora y media", "text": "Cuece 90 minutos a fuego lento, espumando al principio. Añade agua fría en pequeñas veces si hace falta — de nuevo, el susto ablanda la legumbre." },
+      { "name": "Patata y grelos", "text": "Añade las patatas cascadas en trozos grandes y los grelos troceados. Cuece 25 minutos más, hasta que la patata suelte y el caldo espese." },
+      { "name": "Servir", "text": "Retira el unto y el hueso, trocea el chorizo de vuelta y sirve bien caliente, con pan de maíz si hay." }
+    ],
+    "note": "Cascar la patata en vez de cortarla no es manía: la superficie rota suelta almidón y liga el caldo."
+  },
+  {
+    "slug": "escalivada-catalana",
+    "title": "Escalivada Catalana",
+    "subtitle": "Verduras asadas al calor directo, aliñadas con nada más",
+    "description": "Pimientos, berenjenas, cebolla y tomate asados a la llama o al horno, pelados en tiras y aliñados solo con aceite y sal. La escalivada es el verano catalán en un plato.",
+    "region": "Cataluña",
+    "category": "Verduras",
+    "prepMinutes": 15,
+    "cookMinutes": 45,
+    "servings": 4,
+    "tags": ["escalivada", "verdura asada", "receta catalana"],
+    "ingredients": [
+      { "qty": "3", "item": "pimientos rojos de asar" },
+      { "qty": "2", "item": "berenjenas" },
+      { "qty": "2", "item": "cebollas" },
+      { "qty": "2", "item": "tomates maduros" },
+      { "qty": "aceite de oliva virgen extra", "item": "generoso" },
+      { "qty": "al gusto", "item": "sal" }
+    ],
+    "steps": [
+      { "name": "Asar", "text": "Asa las verduras enteras al horno a 220 °C (o a la llama del fuego, como se hacía): pimientos y berenjenas 35-40 minutos, cebollas y tomates los últimos 20." },
+      { "name": "Sudar", "text": "Sácalas a un bol y tápalas o envuélvelas en papel 15 minutos: el vapor afloja la piel." },
+      { "name": "Pelar y tirar", "text": "Pela con las manos — nunca bajo el grifo, que se lleva el sabor — y corta en tiras a lo largo, sobre un plato para recoger el jugo." },
+      { "name": "Aliñar", "text": "Coloca las tiras en fuente, sala y riega con su propio jugo y aceite de oliva. Deja reposar mínimo media hora. Sirve templada o fría, con anchoas o sin." }
+    ],
+    "note": "El grifo es el enemigo de la escalivada: lavar las tiras es tirar la mitad del asado."
+  },
+  {
+    "slug": "crema-catalana",
+    "title": "Crema Catalana",
+    "subtitle": "La crema quemada con hierro, de Sant Josep para acá",
+    "description": "Crema de leche con canela y limón, espesa con maicena y cubierta de azúcar quemado al momento con el hierro o el soplete. Postre de fiesta mayor.",
+    "region": "Cataluña",
+    "category": "Postres",
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "servings": 6,
+    "tags": ["crema catalana", "postre tradicional", "crema quemada"],
+    "ingredients": [
+      { "qty": "1 litro", "item": "leche entera" },
+      { "qty": "6", "item": "yemas de huevo" },
+      { "qty": "150 g", "item": "azúcar (más para quemar)" },
+      { "qty": "40 g", "item": "maicena" },
+      { "qty": "1 rama", "item": "canela" },
+      { "qty": "1", "item": "limón (solo la piel, sin lo blanco)" }
+    ],
+    "steps": [
+      { "name": "Infusionar", "text": "Calienta la leche con la rama de canela y la piel de limón hasta que hierva. Apaga, tapa y deja infusionar 10 minutos." },
+      { "name": "Ligar", "text": "Bate las yemas con el azúcar y la maicena hasta que blanqueen. Cuela la leche sobre el batido, poco a poco, removiendo." },
+      { "name": "Espesar", "text": "Devuelve todo al fuego medio y remueve sin parar con lengua o varillas hasta que espese — unos 5-7 minutos desde que arranca a humear. Sin hervir." },
+      { "name": "Repartir", "text": "Vierte en cazuelitas y alisa la superficie. Fría al menos 3 horas." },
+      { "name": "Quemar", "text": "Cubre cada crema con una capa fina de azúcar y quema con hierro caliente o soplete hasta costra ámbar. Servir al momento, que el contraste es el plato." }
+    ],
+    "note": "Maicena y yemas, no harina ni gelatina: la crema catalana se corta limpia, no rebota."
+  }
+]
