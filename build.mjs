@@ -130,12 +130,14 @@ const notFound = `${head(T.en, { title: `Page not found | Origin España`, desc:
 ${header(T.en, routes.es.home)}<main class="wrap"><section style="padding:60px 0"><h1>${T.en.nf}</h1>
 <p class="lede" style="margin:14px 0 20px">${T.en.nfBody}</p></section></main>${footer(T.en)}</body></html>`;
 
+const IN_KEY = "d390aee0a606d453b3585684871efd3e"; // fleet IndexNow key (vault: INDEXNOW_KEY)
 const dist = fileURLToPath(new URL('./dist/', import.meta.url));
 const write = (rel, content) => { mkdirSync(join(dist, rel), { recursive: true }); writeFileSync(join(dist, rel, 'index.html'), content); };
 write('.', homePage(T.en)); write('recipes', listPage(T.en)); write('search', searchPage(T.en));
 write('es', homePage(T.es)); write('es/recetas', listPage(T.es)); write('es/buscar', searchPage(T.es));
 for (const r of es) { write(`recipes/${r.slug}`, recipePage(T.en, r)); write(`es/receta/${r.slug}`, recipePage(T.es, r)); }
 writeFileSync(join(dist, '404.html'), notFound);
+writeFileSync(join(dist, IN_KEY + '.txt'), IN_KEY);
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
 const urls = ['.', 'recipes/', 'search/', 'es/', 'es/recetas/', 'es/buscar/', ...es.map((r) => `recipes/${r.slug}/`), ...es.map((r) => `es/receta/${r.slug}/`)];
 writeFileSync(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${ORIGIN}/${u === '.' ? '' : u}</loc><lastmod>${TODAY}</lastmod></url>`).join('\n')}\n</urlset>\n`);
