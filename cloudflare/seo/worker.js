@@ -21,7 +21,7 @@ const LIVE_SLUGS = new Set([
 ]);
 
 const SEO_OVERRIDES = {
-  '/es/receta/paella-valenciana/': {
+  '/recipes/paella-valenciana/': {
     title: 'Paella Valenciana — Receta Tradicional (Arroz, Pollo y Conejo)',
     desc: 'La paella valenciana original: arroz bomba, pollo y conejo, judía verde y garrofón, azafrán y aceite. Receta tradicional paso a paso.',
     answer: 'La paella valenciana es el arroz original de Valencia: arroz bomba con pollo y conejo sofrito, judía verde plana y garrofón, azafrán y aceite de oliva, cocinado en paella hasta que el fondo se tuesta en el socarrat. Sin chorizo — la receta tradicional lo excluye.',
@@ -41,7 +41,7 @@ const SEO_OVERRIDES = {
       { q: 'What is socarrat?', a: 'The toasted layer of rice that forms on the pan bottom as the broth finishes — the signature of a properly made paella.' },
     ],
   },
-  '/es/receta/tortilla-de-patatas/': {
+  '/recipes/tortilla-de-patatas/': {
     title: 'Tortilla de Patatas — Receta Tradicional Española',
     desc: 'La tortilla de patatas tradicional: patatas confitadas en aceite, cebolla, huevos y la vuelta perfecta. Jugosa por dentro, dorada por fuera.',
     answer: 'La tortilla de patatas es el plato más universal de la cocina española: patatas confitadas lentamente en aceite de oliva, mezcladas con huevo (y cebolla en la receta tradicional) y cuajadas en la sartén hasta quedar dorada por fuera y jugosa por dentro.',
@@ -50,7 +50,7 @@ const SEO_OVERRIDES = {
       { q: '¿Cómo se consigue una tortilla jugosa?', a: 'Confitando las patatas a fuego suave en abundante aceite y cuajando la tortilla poco: el centro debe quedar apenas cuajado.' },
     ],
   },
-  '/es/receta/gazpacho-andaluz/': {
+  '/recipes/gazpacho-andaluz/': {
     title: 'Gazpacho Andaluz — Receta Tradicional Fría',
     desc: 'El gazpacho andaluz tradicional: tomate maduro, pan, pepino, pimiento, ajo y aceite de oliva, batidos en frío. La sopa fría de Andalucía.',
     answer: 'El gazpacho andaluz es la sopa fría de Andalucía: tomate maduro, pan remojado, pepino, pimiento verde, ajo, aceite de oliva, vinagre y sal, batidos hasta una crema ligera y servido bien frío.',
@@ -93,7 +93,7 @@ export default {
     const m = p.match(/^\/receta\/([^/]+)\/?$/);
     if (m) {
       const slug = m[1];
-      const dest = LIVE_SLUGS.has(slug) ? '/es/receta/' + slug + '/' : '/es/recetas/';
+      const dest = LIVE_SLUGS.has(slug) ? '/recipes/' + slug + '/' : '/recipes/';
       return Response.redirect(new URL(dest, url.origin).toString(), 301);
     }
     // 2) SEO injection on live money pages; passthrough for everything else.
